@@ -3,7 +3,7 @@ function threeSum(arr, target) {
 	arr.sort();
 		let mindiff =Number.MAX_VALUE;
 	let resultSum=arr[0]+arr[1]+arr[2];
-	for(let i=0;i<arr.length-2;i++;){
+	for(let i=0;i<arr.length-2;i++){
 let left =i+1;
 		let right =arr.length-1;
 
